@@ -17,3 +17,12 @@ body{
  top: 20%;
  left: 23%;
 }
+
+#canvas{
+  margin: 0; padding: 0;
+  position:absolute;
+}
+
+* { margin: 0; padding: 0;}
+
+body, html { height:100%; }
