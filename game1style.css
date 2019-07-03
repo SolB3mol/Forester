@@ -1,0 +1,19 @@
+body{
+    background-image : url("grass.png");
+    background-color:#2db92d;
+}
+@font-face {
+    font-family: 'sillkscreen';
+    src: url('slkscr.ttf');
+}
+
+*{
+  color:green;
+  font-family: 'sillkscreen';
+}
+
+#instruction{
+  position: absolute;
+ top: 20%;
+ left: 23%;
+}

@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: 'sillkscreen';
+    src: url('slkscr.ttf');
+}
+
+*{
+  font-family: 'sillkscreen';
+}
+
+body{
+  background-image: url("grass.png");
+}
+
+
+.buttons{
+  position: fixed;
+ top: 40%;
+ left: 40%;
+ font-family: 'sillkscreen';
+}
+
+.startButton {
+  font-family: 'sillkscreen';
+  background-color:#2db92d;
+    padding: 20px;
+    text-align: center;
+    font-size:80px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color : green;
+    border: none;
+
+}
