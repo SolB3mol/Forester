@@ -22,5 +22,5 @@ var ctx = document.getElementById("canvas");
 var tractor = new Image();
   tractor.src = 'tractor.png';
   tractor.onload = function(){
-    c.drawImage(tractor ,100, 156, 97, 70);
+    //c.drawImage(tractor ,100, 156, 97, 70);
   }
