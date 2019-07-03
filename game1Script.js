@@ -1,5 +1,9 @@
 
+
 var instr = document.getElementById('instruction');
+instr.style.width = window.innerWidth*0.53044375645;
+instr.style.height = window.innerHeight*0.5140625;
+
 document.onkeypress = function(e) {
     if( e.keyCode == 32){
       instr.remove();
