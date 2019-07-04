@@ -1,35 +1,30 @@
-
+body{
+    background-image : url("grass.png");
+    background-color:#2db92d;
+}
 @font-face {
     font-family: 'sillkscreen';
     src: url('slkscr.ttf');
 }
 
 *{
+  color:green;
   font-family: 'sillkscreen';
 }
 
-body{
-  background-image: url("grass.png");
+#toolbar{
+  position: absolute;
+  top: 6.39834881321%;
+  left: 92.4479166667%;
 }
 
-
-.buttons{
-  position: fixed;
- top: 40%;
- left: 40%;
- font-family: 'sillkscreen';
+#instruction{
+  position: absolute;
+ top: 20%;
+ left: 23%;
 }
 
-.startButton {
-  font-family: 'sillkscreen';
-  background-color:#2db92d;
-    padding: 20px;
-    text-align: center;
-    font-size:80px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color : green;
-    border: none;
-
+#canvas{
+  margin: 0; padding: 0;
+  position:absolute;
 }
