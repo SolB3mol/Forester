@@ -19,8 +19,8 @@ document.onkeypress = function(e) {
 
 var ctx = document.getElementById("canvas");
   var c = ctx.getContext("2d");
-  ctx.width =  window.innerWidth;
-  ctx.height = window.innerHeight;
+  ctx.width =  window.innerWidth -1/100*window.innerWidth ;
+  ctx.height = window.innerHeight -3/100*window.innerHeight;
 
 
 var tractor = new Image();
