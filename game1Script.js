@@ -4,6 +4,10 @@ var instr = document.getElementById('instruction');
 instr.style.width = window.innerWidth*0.53044375645;
 instr.style.height = window.innerHeight*0.5140625;
 
+var toolbar = document.getElementById('toolbar');
+toolbar.style.width = window.innerWidth*0.07552083333;
+toolbar.style.height = window.innerHeight*0.87203302373;
+
 document.onkeypress = function(e) {
     if( e.keyCode == 32){
       instr.remove();
@@ -22,5 +26,17 @@ var ctx = document.getElementById("canvas");
 var tractor = new Image();
   tractor.src = 'tractor.png';
   tractor.onload = function(){
-    //c.drawImage(tractor ,100, 156, 97, 70);
+
   }
+  var x = 10;
+function animate(){
+
+   requestAnimationFrame(animate);
+   c.clearRect(0, 0,innerWidth, innerHeight);
+   c.fillStyle = '#a3b814';
+   c.fillRect(x,100,100,100);
+     c.drawImage(tractor ,x, 156, 97, 70);
+     // x+=1;
+}
+
+animate();
