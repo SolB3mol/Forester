@@ -12,12 +12,16 @@ body{
   font-family: 'sillkscreen';
 }
 
+#toolbar{
+  position: absolute;
+  top: 6.39834881321%;
+  left: 92.4479166667%;
+}
+
 #instruction{
   position: absolute;
  top: 20%;
  left: 23%;
- width: 50vw;
- height: 50vh;
 }
 
 #canvas{
