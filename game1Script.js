@@ -6,7 +6,7 @@ instr.style.height = window.innerHeight*0.5140625;
 
 var toolbar = document.getElementById('toolbar');
 toolbar.style.width = window.innerWidth*0.07552083333;
-toolbar.style.height = window.innerHeight*0.87203302373;
+toolbar.style.height = window.innerHeight*0.57203302373;
 
 document.onkeypress = function(e) {
     if( e.keyCode == 32){
