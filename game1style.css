@@ -15,7 +15,11 @@ body{
 #toolbar{
   position: absolute;
   top: 6.39834881321%;
-  left: 92.4479166666%;
+  left: 92.4%;
+}
+
+html, body {
+  overflow: hidden;
 }
 
 #instruction{
@@ -25,10 +29,9 @@ body{
 }
 
 #canvas{
+  
 }
 
 * { margin: 0; padding: 0;}
 
-body, html { height:100%;
-overflow: hidden;
-}
+body, html { height:100%; }
