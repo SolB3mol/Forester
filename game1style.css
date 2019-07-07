@@ -6,32 +6,67 @@ body{
     font-family: 'sillkscreen';
     src: url('slkscr.ttf');
 }
-
 *{
   color:green;
   font-family: 'sillkscreen';
+  margin: 0; padding: 0;
+}
+html, body {
+  overflow: hidden;
+  height:100%;
+}
+#money{
+  font-size: 50px;
+  margin-left: 93.0729166667%;
+  margin-top:30;
+  color: #e5d334;
 }
 
 #toolbar{
   position: absolute;
   top: 6.39834881321%;
-  left: 92.4%;
+  left: 92.5479166667%;
 }
-
-html, body {
-  overflow: hidden;
-}
-
 #instruction{
   position: absolute;
- top: 20%;
- left: 23%;
+  top: 20%;
+  left: 23%;
 }
-
-#canvas{
-  
+#plantButton{
+  position: absolute;
+  top: 9.08152734778%;
+  left: 93.0729166667%;
 }
-
-* { margin: 0; padding: 0;}
-
-body, html { height:100%; }
+#waterButton{
+  position: absolute;
+  top: 23.2198142415%;
+  left: 93.0729166667%;
+}
+#buyButton{
+  position: absolute;
+  top: 36.9453044376%;
+  left: 93.0729166667%;
+}
+#dirt11{
+position:absolute;
+}
+#dirt12{
+  position: absolute;
+  left: 15%;
+}
+#dirt13{
+  position: absolute;
+  left: 30%;
+}
+#dirt14{
+  position: absolute;
+  left: 45%;
+}
+#dirt15{
+  position: absolute;
+  left: 60%;
+}
+#dirt16{
+  position: absolute;
+  left: 75%;
+}
