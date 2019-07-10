@@ -82,7 +82,7 @@ treeStage[4].src = 'tree4.png';}
      //  slotIndex[i*5+j].style.top =(26+(i*247)) + "px";
      //  slotIndex[i*5+j].style.left=(42+(j*316)) + "px";
        slotIndex[i*5+j].style.width =  0.13333333333*window.innerWidth;
-       slotIndex[i*5+j].style.height = 0.1826625387*window.innerHeight;
+       slotIndex[i*5+j].style.height = 0.91826625387*window.innerHeight;
        slotIndex[i*5+j].style.display = "none";
      }
    }
