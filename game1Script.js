@@ -71,8 +71,8 @@ treeStage[4].src = 'tree4.png';}
   waterButton.height = window.innerHeight*0.11764705882;
 
   var sellButton = document.getElementById('sellButton');
-  waterButton.width = window.innerWidth*0.0671875;
-  waterButton.height = window.innerHeight*0.11764705882;
+  sellButton.width = window.innerWidth*0.0671875;
+  sellButton.height = window.innerHeight*0.11764705882;
 
   var dirt11 = document.getElementById('dirt11');
   dirt11.width = 0.13333333333*window.innerWidth;
