@@ -27,46 +27,140 @@ html, body {
   top: 6.39834881321%;
   left: 92.5479166667%;
 }
-#instruction{
-  position: absolute;
-  top: 20%;
-  left: 23%;
-}
+
 #plantButton{
   position: absolute;
   top: 9.08152734778%;
   left: 93.0729166667%;
-}
+}#plantButton:hover{cursor:pointer; opacity:0.9;}
+
 #waterButton{
   position: absolute;
   top: 23.2198142415%;
   left: 93.0729166667%;
-}
+}#waterButton:hover{cursor:pointer; opacity:0.9;}
+
 #buyButton{
+  position: absolute;
+  top: 50.6707946337%;
+  left: 93.0729166667%;
+}#buyButton:hover{cursor:pointer; opacity:0.9;}
+
+#sellButton{
   position: absolute;
   top: 36.9453044376%;
   left: 93.0729166667%;
+}#sellButton:hover{cursor:pointer; opacity:0.9;}
+
+div{
+//  position:absolute;
+  z-index: -1;
 }
+
+canvas{
+  border: 1px solid red;
+
+}
+
 #dirt11{
-position:absolute;
+  position: absolute;
+  top:2.68318%;
+  left:2.1875%;
+  box-sizing:border-box;
 }
+#dirt11:hover{ opacity : 0.7;  }
 #dirt12{
   position: absolute;
-  left: 15%;
+  top:2.68318%;
+  left:18.6458%;
 }
 #dirt13{
   position: absolute;
-  left: 30%;
+  top:2.68318%;
+  left:35.1042%;
 }
 #dirt14{
   position: absolute;
-  left: 45%;
+  top:2.68318%;
+  left:51.5625%;
 }
 #dirt15{
   position: absolute;
-  left: 60%;
+  top:2.68318%;
+  left:68.0208%;
 }
-#dirt16{
+#dirt21{
   position: absolute;
-  left: 75%;
+  top:28.1734%;
+  left:2.1875%;
+}
+#dirt22{
+  position: absolute;
+  top:28.1734%;
+  left:18.6458%;
+}
+#dirt23{
+  position: absolute;
+  top:28.1734%;
+  left:35.1042%;
+}
+#dirt24{
+  position: absolute;
+  top:28.1734%;
+  left:51.5625%;
+}
+#dirt25{
+  position: absolute;
+  top:28.1734%;
+  left:68.0208%;
+}
+#dirt31{
+  position: absolute;
+  top:53.6636%;
+  left:2.1875%;
+}
+#dirt32{
+  position: absolute;
+  top:53.6636%;
+  left:18.6458%;
+}
+#dirt33{
+  position: absolute;
+  top:53.6636%;
+  left:35.1042%;
+}
+#dirt34{
+  position: absolute;
+  top:53.6636%;
+  left:51.5625%;
+}
+#dirt35{
+  position: absolute;
+  top:53.6636%;
+  left:68.0208%;
+}
+#dirt41{
+  position: absolute;
+  top:79.1538%;
+  left:2.1875%;
+}
+#dirt42{
+  position: absolute;
+  top:79.1538%;
+  left:18.6458%;
+}
+#dirt43{
+  position: absolute;
+  top:79.1538%;
+  left:35.1042%;
+}
+#dirt44{
+  position: absolute;
+  top:79.1538%;
+  left:51.5625%;
+}
+#dirt45{
+  position: absolute;
+  top:79.1538%;
+  left:68.0208%;
 }
