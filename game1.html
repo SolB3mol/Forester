@@ -6,26 +6,38 @@
 </head>
 <body>
 
- <!--<img id="instruction"src="instr.png">-->
- <p id="money"></p>
+ <p id="demo"></p>
+
  <img id="toolbar"src="toolbar.png">
- <img id="plantButton"src="PlantButton.png">
- <img id="buyButton"src="BuyButton.png">
- <img id="waterButton"src="WaterButton.png">
- <img id="dirt11"src="dirt.png">
- <img id="dirt12"src="dirt.png">
- <img id="dirt13"src="dirt.png">
- <img id="dirt14"src="dirt.png">
- <img id="dirt15"src="dirt.png">
- <img id="dirt16"src="dirt.png">
- <!--
- <img id="tree1"src="tree1.png">
- <img id="tree2"src="tree2.png">
- <img id="tree3"src="tree3.png">
- <img id="tree4"src="tree4.png">
--->
+ <img id="plantButton"src="PlantButton.png"onclick="plantTree()">
+ <img id="buyButton"src="BuyButton.png" onclick="buySlot()">
+ <img id="waterButton"src="WaterButton.png"onclick="waterTree()">
+ <img id="sellButton"src="SellButton.png"onclick="sellTree()">
+ <div>
+ <img id="dirt11"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt12"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt13"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt14"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt15"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt21"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt22"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt23"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt24"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt25"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt31"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt32"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt33"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt34"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt35"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt41"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt42"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt43"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt44"src="dirt.png"onclick="selector(this.id)">
+ <img id="dirt45"src="dirt.png"onclick="selector(this.id)">
+</div>
+
  <canvas id="canvas">
- <canvas id="roadCanvas">
+ <p id="money"></p>
 
 <script src = "game1Script.js" type = "text/javascript"></script>
 <link rel="stylesheet" href="game1style.css">
