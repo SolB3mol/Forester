@@ -12,7 +12,7 @@ treeStage[3].src = 'tree3.png';
 treeStage[4] = new Image();
 treeStage[4].src = 'tree4.png';}
 {
-  var money = 130;
+  var money = 500;
   function tree(stage,water,value,placed) {
     this.stage=stage;
     this.water=water;
@@ -235,9 +235,9 @@ var tree45 = new tree(1, 100, 1, 0);
     c.font = "25px sillkscreen";
     c.fillStyle = "#e1cb47";
     c.clearRect(0.930729166666*window.innerWidth,0,300,100);
-    c.fillText(money+"$", 0.930729166666*window.innerWidth,50);
+    c.fillText(money+"$", 0.930729166666*window.innerWidth,0.0515995872*window.innerHeight);
   }
-  money-=5;
+
   updateMoney();
 
 {
@@ -398,7 +398,7 @@ function selector(id){
   switch (id){
 
      case "dirt11":
-        if( activeButton.plant===1 && tree11.placed===0){
+        if( activeButton.plant===1 && tree11.placed===0 && money>=5 ){
           tree11.placed=1;
           c.drawImage(treeStage[1],locate.t1ree11x,locate.t1ree11y,size.tree1x,size.tree1y);
           money-=5;
@@ -429,7 +429,7 @@ function selector(id){
 
      break;
      case "dirt12":
-     if( activeButton.plant===1 && tree12.placed===0){
+     if( activeButton.plant===1 && tree12.placed===0 && money>=5 ){
        tree12.placed=1;
        c.drawImage(treeStage[1],locate.t1ree12x,locate.t1ree12y,size.tree1x,size.tree1y);
        money-=5;
@@ -459,7 +459,7 @@ function selector(id){
      }
      break;
      case "dirt13":
-     if( activeButton.plant===1 && tree13.placed===0){
+     if( activeButton.plant===1 && tree13.placed===0 && money>=5 ){
        tree13.placed=1;
        c.drawImage(treeStage[1],locate.t1ree13x,locate.t1ree13y,size.tree1x,size.tree1y);
        money-=5;
@@ -489,7 +489,7 @@ function selector(id){
      }
      break;
      case "dirt14":
-     if( activeButton.plant===1 && tree14.placed===0){
+     if( activeButton.plant===1 && tree14.placed===0 && money>=5 ){
        tree14.placed=1;
        c.drawImage(treeStage[1],locate.t1ree14x,locate.t1ree14y,size.tree1x,size.tree1y);
        money-=5;
@@ -519,7 +519,7 @@ function selector(id){
      }
      break;
      case "dirt15":
-     if( activeButton.plant===1 && tree15.placed===0){
+     if( activeButton.plant===1 && tree15.placed===0 && money>=5 ){
        tree15.placed=1;
        c.drawImage(treeStage[1],locate.t1ree15x,locate.t1ree15y,size.tree1x,size.tree1y);
        money-=5;
@@ -549,7 +549,7 @@ function selector(id){
      }
      break;
      case "dirt21":
-     if( activeButton.plant===1 && tree21.placed===0){
+     if( activeButton.plant===1 && tree21.placed===0 && money>=5 ){
        tree21.placed=1;
        c.drawImage(treeStage[1],locate.t1ree21x,locate.t1ree21y,size.tree1x,size.tree1y);
        money-=5;
@@ -579,7 +579,7 @@ function selector(id){
      }
      break;
      case "dirt22":
-     if( activeButton.plant===1 && tree22.placed===0){
+     if( activeButton.plant===1 && tree22.placed===0 && money>=5 ){
        tree22.placed=1;
        c.drawImage(treeStage[1],locate.t1ree22x,locate.t1ree22y,size.tree1x,size.tree1y);
        money-=5;
@@ -609,7 +609,7 @@ function selector(id){
      }
      break;
      case "dirt23":
-     if( activeButton.plant===1 && tree23.placed===0){
+     if( activeButton.plant===1 && tree23.placed===0 && money>=5 ){
        tree23.placed=1;
        c.drawImage(treeStage[1],locate.t1ree23x,locate.t1ree23y,size.tree1x,size.tree1y);
        money-=5;
@@ -639,7 +639,7 @@ function selector(id){
      }
      break;
      case "dirt24":
-     if( activeButton.plant===1 && tree24.placed===0){
+     if( activeButton.plant===1 && tree24.placed===0 && money>=5 ){
        tree24.placed=1;
        c.drawImage(treeStage[1],locate.t1ree24x,locate.t1ree24y,size.tree1x,size.tree1y);
        money-=5;
@@ -669,7 +669,7 @@ function selector(id){
      }
      break;
      case "dirt25":
-     if( activeButton.plant===1 && tree25.placed===0){
+     if( activeButton.plant===1 && tree25.placed===0 && money>=5 ){
        tree25.placed=1;
        c.drawImage(treeStage[1],locate.t1ree25x,locate.t1ree25y,size.tree1x,size.tree1y);
        money-=5;
@@ -699,7 +699,7 @@ function selector(id){
      }
      break;
      case "dirt31":
-     if( activeButton.plant===1 && tree31.placed===0){
+     if( activeButton.plant===1 && tree31.placed===0 && money>=5 ){
        tree31.placed=1;
        c.drawImage(treeStage[1],locate.t1ree31x,locate.t1ree31y,size.tree1x,size.tree1y);
        money-=5;
@@ -729,7 +729,7 @@ function selector(id){
      }
      break;
      case "dirt32":
-     if( activeButton.plant===1 && tree32.placed===0){
+     if( activeButton.plant===1 && tree32.placed===0 && money>=5 ){
        tree32.placed=1;
        c.drawImage(treeStage[1],locate.t1ree32x,locate.t1ree32y,size.tree1x,size.tree1y);
        money-=5;
@@ -759,7 +759,7 @@ function selector(id){
      }
      break;
      case "dirt33":
-     if( activeButton.plant===1 && tree33.placed===0){
+     if( activeButton.plant===1 && tree33.placed===0 && money>=5 ){
        tree33.placed=1;
        c.drawImage(treeStage[1],locate.t1ree33x,locate.t1ree33y,size.tree1x,size.tree1y);
        money-=5;
@@ -789,7 +789,7 @@ function selector(id){
      }
      break;
      case "dirt34":
-     if( activeButton.plant===1 && tree34.placed===0){
+     if( activeButton.plant===1 && tree34.placed===0 && money>=5 ){
        tree34.placed=1;
        c.drawImage(treeStage[1],locate.t1ree34x,locate.t1ree34y,size.tree1x,size.tree1y);
        money-=5;
@@ -819,7 +819,7 @@ function selector(id){
      }
      break;
      case "dirt35":
-     if( activeButton.plant===1 && tree35.placed===0){
+     if( activeButton.plant===1 && tree35.placed===0 && money>=5 ){
        tree35.placed=1;
        c.drawImage(treeStage[1],locate.t1ree35x,locate.t1ree35y,size.tree1x,size.tree1y);
        money-=5;
@@ -849,7 +849,7 @@ function selector(id){
 
      break;
      case "dirt41":
-     if( activeButton.plant===1 && tree41.placed===0){
+     if( activeButton.plant===1 && tree41.placed===0 && money>=5 ){
        tree41.placed=1;
        c.drawImage(treeStage[1],locate.t1ree41x,locate.t1ree41y,size.tree1x,size.tree1y);
        money-=5;
@@ -879,7 +879,7 @@ function selector(id){
      }
      break;
      case "dirt42":
-     if( activeButton.plant===1 && tree42.placed===0){
+     if( activeButton.plant===1 && tree42.placed===0 && money>=5 ){
        tree42.placed=1;
        c.drawImage(treeStage[1],locate.t1ree42x,locate.t1ree42y,size.tree1x,size.tree1y);
        money-=5;
@@ -909,7 +909,7 @@ function selector(id){
      }
      break;
      case "dirt43":
-     if( activeButton.plant===1 && tree43.placed===0){
+     if( activeButton.plant===1 && tree43.placed===0 && money>=5 ){
        tree43.placed=1;
        c.drawImage(treeStage[1],locate.t1ree43x,locate.t1ree43y,size.tree1x,size.tree1y);
        money-=5;
@@ -939,7 +939,7 @@ function selector(id){
      }
      break;
      case "dirt44":
-     if( activeButton.plant===1 && tree44.placed===0){
+     if( activeButton.plant===1 && tree44.placed===0 && money>=5 ){
        tree44.placed=1;
        c.drawImage(treeStage[1],locate.t1ree44x,locate.t1ree44y,size.tree1x,size.tree1y);
        money-=5;
@@ -969,7 +969,7 @@ function selector(id){
      }
      break;
      case "dirt45":
-     if( activeButton.plant===1 && tree45.placed===0){
+     if( activeButton.plant===1 && tree45.placed===0 && money>=5 ){
        tree45.placed=1;
        c.drawImage(treeStage[1],locate.t1ree45x,locate.t1ree45y,size.tree1x,size.tree1y);
        money-=5;
