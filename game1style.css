@@ -32,13 +32,13 @@ html, body {
   position: absolute;
   top: 9.08152734778%;
   left: 93.0729166667%;
-}#plantButton:hover{cursor:pointer; opacity:0.9;}
+}#plantButton:hover{cursor:pointer; opacity:0.6;}
 
 #waterButton{
   position: absolute;
   top: 23.2198142415%;
   left: 93.0729166667%;
-}#waterButton:hover{cursor:pointer; opacity:0.9;}
+}#waterButton:hover{cursor:pointer; //opacity:0.6;}
 
 #buyButton{
   position: absolute;
@@ -50,7 +50,7 @@ html, body {
   position: absolute;
   top: 36.9453044376%;
   left: 93.0729166667%;
-}#sellButton:hover{cursor:pointer; opacity:0.9;}
+}#sellButton:hover{cursor:pointer; opacity:0.6;}
 
 div{
 //  position:absolute;
@@ -58,7 +58,7 @@ div{
 }
 
 canvas{
-  border: 1px solid red;
+  //border: 1px solid red;
 
 }
 
@@ -68,7 +68,7 @@ canvas{
   left:2.1875%;
   box-sizing:border-box;
 }
-#dirt11:hover{ opacity : 0.7;  }
+
 #dirt12{
   position: absolute;
   top:2.68318%;
@@ -164,3 +164,23 @@ canvas{
   top:79.1538%;
   left:68.0208%;
 }
+#dirt11:hover{ opacity : 0.65; }
+#dirt12:hover{ opacity : 0.65; }
+#dirt13:hover{ opacity : 0.65; }
+#dirt14:hover{ opacity : 0.65; }
+#dirt15:hover{ opacity : 0.65; }
+#dirt21:hover{ opacity : 0.65; }
+#dirt22:hover{ opacity : 0.65; }
+#dirt23:hover{ opacity : 0.65; }
+#dirt24:hover{ opacity : 0.65; }
+#dirt25:hover{ opacity : 0.65; }
+#dirt31:hover{ opacity : 0.65; }
+#dirt32:hover{ opacity : 0.65; }
+#dirt33:hover{ opacity : 0.65; }
+#dirt34:hover{ opacity : 0.65; }
+#dirt35:hover{ opacity : 0.65; }
+#dirt41:hover{ opacity : 0.65; }
+#dirt42:hover{ opacity : 0.65; }
+#dirt43:hover{ opacity : 0.65; }
+#dirt44:hover{ opacity : 0.65; }
+#dirt45:hover{ opacity : 0.65; }
